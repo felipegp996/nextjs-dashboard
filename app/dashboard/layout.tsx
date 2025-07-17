@@ -1,6 +1,11 @@
 import SideNav from "../ui/dashboard/sidenav";
+import {Metadata} from 'next'
 
 export const experimental_ppr = true
+
+export const metadata: Metadata = {
+  title: 'Invoices',
+}
 
 export default function DashboardLayout({
   children,
